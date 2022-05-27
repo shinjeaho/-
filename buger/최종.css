@@ -177,10 +177,15 @@
     width: 110%;
     background-color: white;
     font-family: yg-jalnan;
+
 }
 
 .searchTable a
 {
+    max-width: 100%;
+    width: auto !important;
+    height: auto;
+
     margin-top: 20px;
     text-decoration: none;
     border: solid 1px red;
@@ -202,6 +207,9 @@
     width: 110%;
     align-items: center;
     justify-items: center;
+    max-width: 100%;
+    width: auto !important;
+    height: auto;
 }
 
 .imgTable
@@ -252,6 +260,9 @@
         overflow: hidden;
         visibility: collapse;
         z-index: 99;
+        max-width: 100%;
+        width: auto !important;
+        height: auto;
     }
 
     .closer
